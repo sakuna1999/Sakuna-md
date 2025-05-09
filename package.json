@@ -1,15 +1,15 @@
 {
-  "name": "ASITHA-MD",
+  "name": "SAKUNA-MD",
   "version": "1.0.0",
   "description": "A WhatsApp bot created using Node.js",
   "main": "start.js",
   "scripts": {
-    "start": "pm2 start start.js --deep-monitoring --attach --name ASITHA-MD",
-    "stop": "pm2 stop ASITHA-MD",
-    "restart": "pm2 restart ASITHA-MD"
+    "start": "pm2 start start.js --deep-monitoring --attach --name SAKUNA-MD",
+    "stop": "pm2 stop SAKUNA-MD",
+    "restart": "pm2 restart SAKUNA-MD"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "npm:asitha-baliyes-new",
+    "@whiskeysockets/baileys": "npm:sakuna-baliyes-new",
     "@adiwajshing/keyed-db": "latest",
     "pino": "latest",
     "pm2": "latest",
